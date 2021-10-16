@@ -1,4 +1,4 @@
-# Search Box - React Library
+# SearchBox JS - React Library
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](./CONTRIBUTING.md)
 
@@ -9,21 +9,21 @@ Create Search Boxes with complete functionalities and multiple variants.
 ### **Step 1** - Install Search Box.
 
 ```shell
-npm i search-box
+npm i searchbox-js
 ```
 
 OR
 
-```
-yarn add search-box
+```shell
+yarn add searchbox-js
 ```
 
 ### **Step 2** - Usage.
 
-Once, you have installed the `search-box` library, you can use it in your project by importing it in your `App.js` or any `.js` / `.jsx` files.
+Once, you have installed the `searchbox-js` library, you can use it in your project by importing it in your `App.js` or any `.js` / `.jsx` files.
 
 ```diff
-+ import { SearchBox } from "search-box";
++ import { SearchBox } from "searchbox-js";
 import "./App.css";
 
 function App() {
