@@ -1,13 +1,13 @@
 {
   "name": "searchbox-js",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "An open-source ReactJS component library for creating beautiful and responsive user interfaces",
   "author": "ranajahanzaib",
   "license": "MIT",
   "keywords": [
     "react",
+    "search",
     "components",
-    "ui",
     "library"
   ],
   "main": "dist/index.js",

@@ -1,3 +1,3 @@
-import Box from "./components/Box";
+import SearchBox from "./components/SearchBox";
 
-export { Box };
+export { SearchBox };

@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
-import Box from "./lib/components/Box";
+import SearchBox from "./lib/components/SearchBox";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -10,4 +10,4 @@ ReactDOM.render(
   document.getElementById("root")
 );
 
-export { Box };
+export { SearchBox };
