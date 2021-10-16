@@ -1,103 +1,35 @@
-# React Library Template
+# Search Box - React Library
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](./CONTRIBUTING.md)
 
-Instantly create React Component Library with this open-source template repo.
+Create Search Boxes with complete functionalities and multiple variants.
 
 # Get Started
 
-To use this repo template properly, _please make sure you update the following files in your repo._
-
-```
-./
-  AUTHORS
-  MAINTAINERS
-
-  src/
-    lib/
-      components/        // Your React Components here
-```
-
-### **Step 1** - Login to NPM
-
-To get started, you must have an account with [npmjs.com](https://www.npmjs.com/). If you don't have an account, you can sign up for one here: [https://www.npmjs.com/signup](https://www.npmjs.com/signup). Then, login into your npm account using CLI.
+### **Step 1** - Install Search Box.
 
 ```shell
-npm login
+npm i search-box
 ```
 
-### **Step 2** - Update `package.json`
+OR
 
-Update `package.json` with your NPM package information. Please make sure to update the following fields:
-
-File: `package.json`
-
-```json
-{
-  "name": "react-library-x",
-  "author": "your-username",
-  "version": "1.0.0"
-}
+```
+yarn add search-box
 ```
 
-**Tip:** _[Do a Quick Search](https://www.npmjs.com/search?q=isMyUniquePkgNameAvailable) to find a package name that's unique and available._
+### **Step 2** - Usage.
 
-### **Step 3** - Build & Deploy
-
-Use the following command to build your components into `dist` folder, that is automatically created in build process.
-
-```shell
-npm run build
-```
-
-Once, you're done building, you can deploy your package to [NPM Registry](https://www.npmjs.com/) by running the following command in CLI.
-
-```shell
-npm publish
-```
-
-### **Step 4** - Update
-
-To update the NPM Package, increase the version number in `package.json`.
-
-```json
-{
-  "version": "1.0.1"
-}
-```
-
-And run the following command in CLI to publish an update for your NPM package.
-
-```shell
-npm publish
-```
-
-### **Step 5** - Install new Component Library.
-
-Once, the package is published, you can run the following command in CLI to install the package to any React project:
-
-```shell
-npm i react-library-x
-
- - OR -
-
-yarn add react-library-x
-```
-
-Replace `react-library-x` with the name of your NPM package.
-
-### **Step 6** - Use the new Component Library.
-
-Once, you have installed the new React component library, you can use it in your project by importing it in your `App.js` or any `.js` / `.jsx` files.
+Once, you have installed the `search-box` library, you can use it in your project by importing it in your `App.js` or any `.js` / `.jsx` files.
 
 ```diff
-+ import { Box } from "react-library-x";
++ import { SearchBox } from "search-box";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-+      <Box>A Component from my new React Library</Box>
++      <SearchBox>...</SearchBox>
     </div>
   );
 }
